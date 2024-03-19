@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 public class Car extends Vehicle{
 
     private String driveTrain; //AWD, FWD, 4WD, RWD
@@ -19,3 +20,6 @@ public class Car extends Vehicle{
     
 
 }
+=======
+
+>>>>>>> 8527bd4637f62a59b6d7742edcaa5c9635066325
