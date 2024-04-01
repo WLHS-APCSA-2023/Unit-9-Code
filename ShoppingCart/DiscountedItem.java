@@ -1,5 +1,5 @@
 // DiscountedItem inherits from Item
-class DiscountedItem extends Item
+public class DiscountedItem extends Item
 {
     // add an instance variable for the discount
 
