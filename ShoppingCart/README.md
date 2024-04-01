@@ -1,6 +1,6 @@
 # Programming Challenge : Shopping Cart (from CSAwesome)
 
-## Part 1
+## Part 1 - https://runestone.academy/ns/books/published/23-24_APCSA/Unit9-Inheritance/topic-9-5-hierarchies.html
 The code contains a class called ShoppingCart that simulates a grocery store or an online store’s shopping cart. It has an ArrayList called order that you can use to add Items to the shopping cart. The Item class keeps track of the name and the price of each Item. If you run the code, you will see that it adds 2 items to the cart and then prints out the total order.
 
 In this challenge, you will add a new class called DiscountedItem that extends the Item class. The ArrayList of Item will still work since it can hold the subclasses of Item too! The ShoppingCart printOrder method will work with Item and DiscountedItem but note that it has an if statement that treats DiscountedItem differently.
