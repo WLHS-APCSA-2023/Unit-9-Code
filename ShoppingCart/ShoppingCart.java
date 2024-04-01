@@ -21,10 +21,22 @@ public class ShoppingCart
             internalDiscount += ((DiscountedItem) i).getDiscount();
     }
 
+    public int countDiscountedItems(){
+        
+        int discountedItems = 0;
+        for(Item item: order){
+            if(item instanceof DiscountedItem){
+                discountedItems++;
+            }
+        }
+        return discountedItems;
+    }
+
     /** printOrder() will call toString() to print */
     public void printOrder()
     {
         System.out.println(this);
+        System.out.println("Discounted Items: "+countDiscountedItems());
     }
 
     public String toString()
