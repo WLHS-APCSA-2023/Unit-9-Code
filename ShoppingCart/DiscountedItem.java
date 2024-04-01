@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 // DiscountedItem inherits from Item
 public class DiscountedItem extends Item
 {

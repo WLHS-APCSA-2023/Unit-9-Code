@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /**
  * The ShoppingCart class has an ArrayList of Items. You will write a new class
  * DiscountedItem that extends Item. This code is adapted from
