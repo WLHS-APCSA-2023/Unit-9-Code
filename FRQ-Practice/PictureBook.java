@@ -1,4 +1,4 @@
-public class PictureBook extend Book{
+public class PictureBook extends Book{
 
     private String illustrator;
 
