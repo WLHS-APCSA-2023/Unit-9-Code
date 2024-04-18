@@ -1,3 +1,4 @@
+package src;
 public class Dog extends Canine {
     
     public Dog(String name){

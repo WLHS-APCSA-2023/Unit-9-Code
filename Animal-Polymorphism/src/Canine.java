@@ -1,3 +1,4 @@
+package src;
 public class Canine{
     private String name;
     

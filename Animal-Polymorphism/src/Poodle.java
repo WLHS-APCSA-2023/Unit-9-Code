@@ -1,11 +1,12 @@
-public class Fox extends Canine {
+package src;
+public class Poodle extends Dog {
     
-    public Fox(String name){
+    public Poodle(String name){
         super(name);
     }
 
     public String speak(){
-        return "Ring-ding-ding-ding-dingeringeding";
+        return "yip";
     }
     public String getName(){
         return super.getName();
